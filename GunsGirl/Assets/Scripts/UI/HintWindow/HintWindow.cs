@@ -8,10 +8,11 @@ public class HintWindow : MonoBehaviour {
     public Button closeButton;
     public Text hintInfo;
 
-    public void Active(string info)
+    public void Active(HintModel hint)
     {
         gameObject.SetActive(true);
-        hintInfo.text = info;
+        hintInfo.text = hint.HintInfo;
+        hint.Result();
     }
 
     /// <summary>

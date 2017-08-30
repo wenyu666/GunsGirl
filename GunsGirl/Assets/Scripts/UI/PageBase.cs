@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PageBase : MonoBehaviour {
+public class PageBase:MonoBehaviour
+{
 
     /// <summary>
     /// 打开页面时
@@ -19,4 +20,7 @@ public class PageBase : MonoBehaviour {
     {
 
     }
+
+
+    
 }

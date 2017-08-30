@@ -9,8 +9,7 @@ public class HintController:MonoBehaviour {
 
     public void AddHints(HintModel hint)
     {
-        hintWindow.Active(hint.HintInfo);
-        hint.Result();
+        hintWindow.Active(hint);
     }
 
 }
